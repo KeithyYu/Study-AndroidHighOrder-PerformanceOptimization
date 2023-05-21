@@ -5,6 +5,9 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
+/**
+ * 其实就是手写一个Glide，主要目的就是了解Glide的原理
+ */
 public class ImageResize {
     public static Bitmap resizeImage(Context context, int imageId, int requestWidth, int requestHeight,boolean isNeedAlpha) {
         Resources resources = context.getResources();
